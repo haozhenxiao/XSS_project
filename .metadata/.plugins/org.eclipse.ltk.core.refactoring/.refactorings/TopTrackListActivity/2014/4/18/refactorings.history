@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LastFMIconTask.java&apos; to &apos;GitHubNavigator/src/eda397.group10.communication&apos;&#x0D;&#x0A;- Original project: &apos;TopTrackListActivity&apos;&#x0D;&#x0A;- Destination element: &apos;GitHubNavigator/src/eda397.group10.communication&apos;&#x0D;&#x0A;- Original element: &apos;edu.gvsu.cis.toptracks.tasks.LastFMIconTask.java&apos;" description="Copy compilation unit" destination="=GitHubNavigator/src&lt;eda397.group10.communication" element1="/src&lt;edu.gvsu.cis.toptracks.tasks{LastFMIconTask.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1398862504365" units="1" version="1.0"/>
+</session>
