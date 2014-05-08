@@ -22,28 +22,28 @@ public partial class Login : System.Web.UI.Page
 
         string username = TextBox1.Text;
         string password = TextBox2.Text;
-        string sql = ("SELECT * FROM User WHERE name='" + username + "' AND password='" + password + "';");
+        string sql = "SELECT * FROM Users WHERE Username='" + username + "' AND Password='" + password + "';";
         SqlCommand command = new SqlCommand();
-        command.CommandText = "SELECT * FROM User;";
+        command.CommandText = sql;
         command.CommandType = CommandType.Text;
         command.Connection = connection;
         
         SqlDataReader reader = null;
         try {
             connection.Open();
-           // reader = command.ExecuteReader();
-            //if (!reader.Equals(null))
-            //{
-            //    Response.Redirect("Welcome.aspx");
-            //}
-            TextBox1.Text = "OK";
+            reader = command.ExecuteReader();
+            if (reader.Read())
+            {
+                Response.Redirect("Welcome.aspx");
+            }
+
         }
         catch (SqlException ex) {
             TextBox1.Text = "NOT OK";
-            Console.WriteLine("00000000000 "+ex.Message);
         }
         
         connection.Close();
         
     }
+
 }

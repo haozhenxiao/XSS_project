@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.apache.http.protocol.HTTP"/>
-<fullyQualifiedTypeName name="android.app.ProgressDialog"/>
-<fullyQualifiedTypeName name="android.app.AlertDialog"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.content.DialogInterface"/>
 <fullyQualifiedTypeName name="android.app.AlertDialog.Builder"/>
@@ -46,7 +43,6 @@
 <fullyQualifiedTypeName name="eda397.group10.pojo.EventsPOJO"/>
 <fullyQualifiedTypeName name="android.support.v4.app.TaskStackBuilder"/>
 <fullyQualifiedTypeName name="eda397.group10.communication.AvatarCreater"/>
-<fullyQualifiedTypeName name="eda397.group10.navigator.R.id"/>
 <fullyQualifiedTypeName name="eda397.group10.navigator.R.drawable"/>
 <fullyQualifiedTypeName name="android.support.v4.util.LruCache"/>
 <fullyQualifiedTypeName name="android.graphics.drawable.Drawable"/>
@@ -60,4 +56,8 @@
 <fullyQualifiedTypeName name="eda397.group10.pojo.EventPOJO"/>
 <fullyQualifiedTypeName name="android.graphics.Bitmap"/>
 <fullyQualifiedTypeName name="com.google.gson.Gson"/>
+<fullyQualifiedTypeName name="android.view.MenuInflater"/>
+<fullyQualifiedTypeName name="eda397.group10.navigator.R.id"/>
+<fullyQualifiedTypeName name="eda397.group10.JSONParsers.RepoCommitJSONParser"/>
+<fullyQualifiedTypeName name="eda397.group10.adapters.RepoCommitListAdapter"/>
 </qualifiedTypeNameHistroy>
