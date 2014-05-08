@@ -34,6 +34,8 @@ public partial class Login : System.Web.UI.Page
             reader = command.ExecuteReader();
             if (reader.Read())
             {
+                HttpCookie cookie = new HttpCookie(username,password);
+                Response.Cookies.Add(cookie);
                 Response.Redirect("Welcome.aspx");
             }
 
