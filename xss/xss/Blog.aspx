@@ -35,8 +35,9 @@
     <asp:Panel ID="Panel3" runat="server" Width="500px" Height="600px"  Style="margin-top:2%;border:groove;background-color:azure;left:50%;position:absolute;margin-left:-0px">
         <asp:Label ID="Label2" runat="server" Text="Select blog : "></asp:Label>
         <asp:DropDownList ID="TitleDropDown" runat="server" DataSourceID="SqlDataSource1" DataTextField="Title" DataValueField="Title" OnSelectedIndexChanged="TitleDropDown_SelectedIndexChanged" AutoPostBack="true">
-        </asp:DropDownList>
+        </asp:DropDownList>       
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DbConnection %>" SelectCommand="SELECT [Title] FROM [Blogs]"></asp:SqlDataSource>
+        
         <br />
         <br />
         <!--<asp:TextBox ID="ShowBlog" runat="server" Height="401px" Width="401px" TextMode="multiline" ReadOnly="true" ValidateRequestMode="Disabled"></asp:TextBox>-->
@@ -55,5 +56,7 @@
     </asp:Panel>
 
     </form>
+
+    <form action="http://www.facebook.com" target="_blank" ><input type="submit" value="Like" style="background:#3b5999"/></form>
 </body>
 </html>

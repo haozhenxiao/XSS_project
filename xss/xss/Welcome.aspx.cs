@@ -17,7 +17,7 @@ public partial class Welcome : System.Web.UI.Page
     {
         if (RadioButtonList1.SelectedIndex == 0)
         {
-            Response.Redirect("Choices.aspx");
+            Response.Redirect("Blog.aspx");
         }
         else { 
         

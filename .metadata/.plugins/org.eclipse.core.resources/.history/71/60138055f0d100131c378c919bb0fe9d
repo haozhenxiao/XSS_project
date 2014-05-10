@@ -1,7 +1,0 @@
-package eda397.group10.cache;
-
-import android.support.v4.util.LruCache;
-
-public class ImageCache extends LruCache<K, V> {
-
-}
