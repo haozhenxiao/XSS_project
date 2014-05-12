@@ -19,7 +19,7 @@
     <asp:Panel ID="Panel2" runat="server" Style="border:groove;background-color:azure;text-align:center;margin-top:50px;">
         <asp:Label ID="Label3" runat="server" Text="You can write your blog here" Font-Bold="true" Font-Size="XX-Large"></asp:Label>
         </asp:Panel>
-
+     <form id="like_form" action="http://www.facebook.com" target="_blank" ><input id="like_button" type="submit" value="Like" style="background:#3b5999"/></form>
     <form id="form1" runat="server">
         <asp:Panel ID="Panel1" runat="server" Width="500px" Height="600px"  Style="margin-top:2%;border:groove;background-color:azure;left:50%;position:absolute;margin-left:-550px">
             <asp:Label ID="Label1" runat="server" Text="Title : "></asp:Label>
@@ -56,7 +56,5 @@
     </asp:Panel>
 
     </form>
-
-    <form action="http://www.facebook.com" target="_blank" ><input type="submit" value="Like" style="background:#3b5999"/></form>
 </body>
 </html>

