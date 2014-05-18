@@ -1,5 +1,0 @@
-<div style="position:fixed; right:60px; bottom:10px; overflow:visible;" id="clippy">
-<table valign="top" width="590" height="393" border="0" background="images/fake_sec.png"
-cellpadding="10"><tr><td valign="top"><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<p>&nbsp;</p><p>&nbsp;</p>You firewall's fucked up.<a href="http://www.google.com">Clicke here to clean it.</a></td></tr>
-</table></div>

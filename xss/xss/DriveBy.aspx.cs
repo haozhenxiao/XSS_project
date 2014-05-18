@@ -10,8 +10,8 @@ public partial class DriveBy : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         Response.ContentType = "application/octet-stream";
-        Response.AppendHeader("Content-Disposition", "attachment; filename=scripts.txt");
-        Response.TransmitFile(Server.MapPath("~/images/scripts.txt"));
+        Response.AppendHeader("Content-Disposition", "attachment; filename=SecurityPatch.exe.txt");
+        Response.TransmitFile(Server.MapPath("~/images/SecurityPatch.exe.txt"));
         Response.End();
     }
 }

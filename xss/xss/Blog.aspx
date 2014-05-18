@@ -14,7 +14,7 @@
         }
     </style>
 </head>
-<body>
+<body background="images/bc.jpg">
 
     <asp:Panel ID="Panel2" runat="server" Style="border:groove;background-color:azure;text-align:center;margin-top:50px;">
         <asp:Label ID="Label3" runat="server" Text="You can write your blog here" Font-Bold="true" Font-Size="XX-Large"></asp:Label>

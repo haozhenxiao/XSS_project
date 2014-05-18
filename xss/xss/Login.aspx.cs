@@ -17,8 +17,18 @@ public partial class Login : System.Web.UI.Page
 
     void Login_Click(Object sender,
                            EventArgs e) {
+
+        SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+        builder.DataSource = "DbConnection";
+        builder.InitialCatalog = "LocalDB";
+        builder.InitialCatalog = "DbConnection";
+        builder.UserID = "";
+        builder.Password = "";
+        builder.ConnectTimeout = 0;
+        builder.IntegratedSecurity = false;
         
-        SqlConnection connection = new SqlConnection(WebConfigurationManager.ConnectionStrings["DbConnection"].ToString());       
+        SqlConnection connection = new SqlConnection(WebConfigurationManager.ConnectionStrings["DbConnection"].ToString()); 
+        //SqlConnection connection = new SqlConnection(builder.ConnectionString);
 
         string username = TextBox1.Text;
         string password = TextBox2.Text;

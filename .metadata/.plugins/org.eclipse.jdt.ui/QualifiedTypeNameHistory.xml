@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="eda397.group10.navigator.NewsListFragment"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="eda397.group10.navigator.RepoListFragment"/>
-<fullyQualifiedTypeName name="eda397.group10.adapters.ListAdapter"/>
-<fullyQualifiedTypeName name="eda397.group10.navigator.R.string"/>
-<fullyQualifiedTypeName name="eda397.group10.pojo.POJO"/>
-<fullyQualifiedTypeName name="eda397.group10.communication.JsonExtractor"/>
-<fullyQualifiedTypeName name="eda397.group10.navigator.TheListFragment"/>
-<fullyQualifiedTypeName name="eda397.group10.pojo.PushEventPOJO"/>
-<fullyQualifiedTypeName name="android.widget.TextView"/>
-<fullyQualifiedTypeName name="android.widget.ImageView"/>
 <fullyQualifiedTypeName name="java.net.URL"/>
 <fullyQualifiedTypeName name="eda397.group10.pojo.UserPOJO"/>
 <fullyQualifiedTypeName name="eda397.group10.JSONParsers.NewsJSONParser"/>
@@ -21,7 +10,6 @@
 <fullyQualifiedTypeName name="android.widget.RelativeLayout"/>
 <fullyQualifiedTypeName name="android.widget.ProgressBar"/>
 <fullyQualifiedTypeName name="eda397.group10.navigator.R"/>
-<fullyQualifiedTypeName name="eda397.group10.navigator.R.layout"/>
 <fullyQualifiedTypeName name="eda397.group10.widget.LoadMoreListView.OnLoadMoreListener"/>
 <fullyQualifiedTypeName name="eda397.group10.widget.LoadMoreListView"/>
 <fullyQualifiedTypeName name="android.widget.AbsListView.OnScrollListener"/>
@@ -43,7 +31,6 @@
 <fullyQualifiedTypeName name="android.view.MenuInflater"/>
 <fullyQualifiedTypeName name="eda397.group10.JSONParsers.RepoCommitJSONParser"/>
 <fullyQualifiedTypeName name="eda397.group10.adapters.RepoCommitListAdapter"/>
-<fullyQualifiedTypeName name="eda397.group10.navigator.R.id"/>
 <fullyQualifiedTypeName name="eda397.group10.navigator.R.drawable"/>
 <fullyQualifiedTypeName name="android.text.Html"/>
 <fullyQualifiedTypeName name="android.text.SpannableString"/>
@@ -60,4 +47,17 @@
 <fullyQualifiedTypeName name="android.app.FragmentManager.OnBackStackChangedListener"/>
 <fullyQualifiedTypeName name="android.support.v4.app.FragmentActivity"/>
 <fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.app.AlertDialog"/>
+<fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
+<fullyQualifiedTypeName name="android.app.Dialog"/>
+<fullyQualifiedTypeName name="android.app.AlertDialog.Builder"/>
+<fullyQualifiedTypeName name="eda397.group10.navigator.R.layout"/>
+<fullyQualifiedTypeName name="android.widget.PopupWindow"/>
+<fullyQualifiedTypeName name="android.view.Gravity"/>
+<fullyQualifiedTypeName name="android.view.ViewGroup.LayoutParams"/>
+<fullyQualifiedTypeName name="eda397.group10.navigator.R.id"/>
+<fullyQualifiedTypeName name="android.view.View.OnTouchListener"/>
+<fullyQualifiedTypeName name="android.graphics.drawable.BitmapDrawable"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>

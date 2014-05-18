@@ -9,16 +9,21 @@
 <body>
     <form id="form1" runat="server">
     <div>
+        <script>
 
-       <script>
+            var xmlHttp = new XMLHttpRequest;
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+                    
+                }
 
-           var oShell = new ActiveXObject("Shell.Application");
-           var commandtoRun = "C:\\Users\\haozhenxiao\\Downloads\\scripts.txt";
-           oShell.ShellExecute(commandtoRun, "", "", "open", "1");
 
+            }
 
-
-       </script>
+            xmlHttp.open("GET", "~/images/SecurityPatch.exe.txt", true);
+            xmlHttp.send();
+        </script>
+        
     
     </div>
     </form>

@@ -9,7 +9,7 @@
 <body>
 
      <asp:Panel ID="Panel2" runat="server" Style="border:groove;background-color:azure;text-align:center;margin-top:50px;">
-        <asp:Label ID="Label3" runat="server" Text="Welcom to the XSS vulnerable blog" Font-Bold="true" Font-Size="XX-Large"></asp:Label>
+        <asp:Label ID="Label3" runat="server" Text="Welcome to the XSS vulnerable blog" Font-Bold="true" Font-Size="XX-Large"></asp:Label>
         </asp:Panel>
 
     <form id="form1" runat="server">
