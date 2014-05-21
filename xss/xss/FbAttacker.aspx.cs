@@ -12,16 +12,4 @@ public partial class FbAttacker : System.Web.UI.Page
     {
 
     }
-
-    protected void TheLogin_Click(object sender, EventArgs e)
-    {
-
-        
-
-        Control email = this.Controls.Find("MyEmail", true);
-
-        System.Diagnostics.Debug.Write("+++++++++++++++++++++++++++++++++++++ "+email.Text);
-
-
-    }
 }

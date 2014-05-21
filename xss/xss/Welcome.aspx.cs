@@ -19,7 +19,9 @@ public partial class Welcome : System.Web.UI.Page
         {
             Response.Redirect("Blog.aspx");
         }
-        else { 
+        else {
+
+            Response.Redirect("SafeBlog.aspx");
         
         }
     }

