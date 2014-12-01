@@ -14,15 +14,21 @@ ChaosMonkey: http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild
 **Project goal**
 
 Find the requirements that CMT put on system and component to be feasible
+
 Find what quality metrics CMT can provide
+
 Roadmap for being able to apply CMT during RBS verification
+
 Proof-of-concept CMT of an existing component
  
 **Qualifications**
 
 Analytical mindset
+
 Interest in test domain
+
 Fluent with Java or C/C++
+
 Comfortable with Linux
  
 This thesis work is suitable for MSc students (D, IT, E, F) working in pair starting 2015.
