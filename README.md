@@ -11,13 +11,15 @@ An RBS (Radio base station) is a distributed system of components that communica
  
 ChaosMonkey: http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html
  
-Project goal
+**Project goal**
+
 Find the requirements that CMT put on system and component to be feasible
 Find what quality metrics CMT can provide
 Roadmap for being able to apply CMT during RBS verification
 Proof-of-concept CMT of an existing component
  
-Qualifications
+**Qualifications**
+
 Analytical mindset
 Interest in test domain
 Fluent with Java or C/C++
